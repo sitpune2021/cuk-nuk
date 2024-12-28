@@ -1,0 +1,141 @@
+CRITICAL - 2024-12-20 05:32:08 --> Undefined variable $image
+in APPPATH\Controllers\ProductController.php on line 121.
+ 1 APPPATH\Controllers\ProductController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\anujyot_industries\\app\\Controllers\\ProductController.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductController->ProductInserted()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-20 09:36:47 --> include(Include/hedaer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\AboutUs.php on line 16.
+ 1 APPPATH\Views\AboutUs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Include/hedaer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\AboutUs.php', 16)
+ 2 APPPATH\Views\AboutUs.php(16): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\AboutUs.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('AboutUs', [], true)
+ 6 APPPATH\Controllers\Home.php(33): view('AboutUs')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->AboutUs()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-20 10:38:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-12-20 10:38:53 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-72aad90c133sm2883869b3a.183 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.156.130.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-72aad90c133sm2883869b3a.183 - gsmtp
+
+ERROR - 2024-12-20 10:38:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-12-20 10:38:54 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-72aad90c133sm2883869b3a.183 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.156.130.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-72aad90c133sm2883869b3a.183 - gsmtp
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-72aad90c133sm2883869b3a.183 - gsmtp
+
+CRITICAL - 2024-12-20 12:11:04 --> Undefined variable $categoryD
+in APPPATH\Views\index.php on line 1521.
+ 1 APPPATH\Views\index.php(1521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryD', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php', 1521)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-20 12:11:13 --> Undefined variable $categoryD
+in APPPATH\Views\index.php on line 1521.
+ 1 APPPATH\Views\index.php(1521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryD', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php', 1521)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-20 12:11:14 --> Undefined variable $categoryD
+in APPPATH\Views\index.php on line 1521.
+ 1 APPPATH\Views\index.php(1521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryD', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php', 1521)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-20 12:11:56 --> Undefined variable $categoryD
+in APPPATH\Views\index.php on line 1521.
+ 1 APPPATH\Views\index.php(1521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryD', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php', 1521)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-20 12:11:57 --> Undefined variable $categoryD
+in APPPATH\Views\index.php on line 1521.
+ 1 APPPATH\Views\index.php(1521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryD', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php', 1521)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-20 12:12:43 --> Undefined variable $categoryD
+in APPPATH\Views\index.php on line 1521.
+ 1 APPPATH\Views\index.php(1521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryD', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php', 1521)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-20 12:22:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\productDetails.php on line 37.
+ 1 APPPATH\Views\productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\productDetails.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\productDetails.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('productDetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-20 12:49:58 --> Undefined array key "category"
+in APPPATH\Views\index.php on line 145.
+ 1 APPPATH\Views\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CukNuk\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

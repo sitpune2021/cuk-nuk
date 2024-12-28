@@ -1,0 +1,184 @@
+CRITICAL - 2024-03-01 06:18:20 --> syntax error, unexpected variable "$query", expecting "function" or "const"
+in APPPATH/Config/Email.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/home/anujyotindustrie/public_html/app/Config/Email.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Email')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Email')
+ 4 SYSTEMPATH/Config/Factories.php(283): class_exists('Config\\Email')
+ 5 SYSTEMPATH/Config/Factories.php(202): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Email')
+ 6 SYSTEMPATH/Config/Factories.php(161): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Email', [])
+ 7 SYSTEMPATH/Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Config/Services.php(230): config('Config\\Email')
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::email(null, false)
+10 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+11 SYSTEMPATH/Config/Services.php(226): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+12 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::email()
+13 APPPATH/Controllers/ContactController.php(53): CodeIgniter\Config\BaseService::__callStatic('email', [])
+14 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+15 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+16 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 06:18:39 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 06:18:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 06:18:39 --> 
+ERROR - 2024-03-01 06:55:11 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 06:55:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 06:55:11 --> 
+ERROR - 2024-03-01 06:59:36 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 06:59:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 06:59:36 --> 
+ERROR - 2024-03-01 06:59:38 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(60): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 06:59:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 06:59:38 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 07:01:46 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 07:01:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 07:01:46 --> 
+ERROR - 2024-03-01 07:05:23 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 07:05:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 07:05:23 --> 
+ERROR - 2024-03-01 07:05:24 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(60): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 07:05:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 07:05:24 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 07:07:11 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 07:07:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 07:07:11 --> 
+ERROR - 2024-03-01 07:07:12 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(60): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 07:07:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 07:07:12 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 11:54:08 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 11:54:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 11:54:08 --> 
+ERROR - 2024-03-01 11:54:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(60): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-01 11:54:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-01 11:54:09 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.

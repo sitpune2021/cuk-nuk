@@ -1,0 +1,1062 @@
+CRITICAL - 2024-01-13 04:06:35 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 35.
+ 1 APPPATH/Controllers/CategoryController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 35)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->CategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 04:57:22 --> Undefined array key "pan_upload"
+in APPPATH/Controllers/VendorController.php on line 45.
+ 1 APPPATH/Controllers/VendorController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pan_upload"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 45)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:05:48 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH/Views/Category/AddCategory.php on line 121.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddCategory', [], true)
+ 3 APPPATH/Controllers/CategoryController.php(68): view('Category/AddCategory', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->CategoryInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:11:21 --> Undefined variable $pan_upload
+in APPPATH/Controllers/VendorController.php on line 71.
+ 1 APPPATH/Controllers/VendorController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pan_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 71)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:12:18 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH/Views/Category/AddCategory.php on line 129.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddCategory', [], true)
+ 3 APPPATH/Controllers/CategoryController.php(68): view('Category/AddCategory', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->CategoryInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:13:35 --> Undefined variable $aadhar_upload
+in APPPATH/Controllers/VendorController.php on line 72.
+ 1 APPPATH/Controllers/VendorController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aadhar_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 72)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:19:43 --> Undefined variable $aadhar_upload
+in APPPATH/Controllers/VendorController.php on line 111.
+ 1 APPPATH/Controllers/VendorController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aadhar_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 111)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:22:19 --> Undefined variable $aadhar_upload
+in APPPATH/Controllers/VendorController.php on line 111.
+ 1 APPPATH/Controllers/VendorController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aadhar_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 111)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:25:18 --> Undefined variable $aadhar_upload
+in APPPATH/Controllers/VendorController.php on line 110.
+ 1 APPPATH/Controllers/VendorController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aadhar_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 110)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:33:47 --> Undefined variable $aadhar_upload
+in APPPATH/Controllers/VendorController.php on line 113.
+ 1 APPPATH/Controllers/VendorController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aadhar_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 113)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:49:36 --> Undefined variable $aadhar_upload
+in APPPATH/Controllers/VendorController.php on line 113.
+ 1 APPPATH/Controllers/VendorController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aadhar_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 113)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 05:57:30 --> move_uploaded_file(public/assets/images/pan_upload/Sagar B Chavan_9966332255.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/VendorController.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(public/assets/images/pan_upload/Sagar B Chavan_9966332255.png): Failed to open stream: No such file or directory', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 30)
+ 2 APPPATH/Controllers/VendorController.php(30): move_uploaded_file('/tmp/phpJRGCKH', 'public/assets/images/pan_upload/Sagar B Chavan_9966332255.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:29:17 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 152.
+ 1 APPPATH/Controllers/CategoryController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 152)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:31:08 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 152.
+ 1 APPPATH/Controllers/CategoryController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 152)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:32:32 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 152.
+ 1 APPPATH/Controllers/CategoryController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 152)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:33:46 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 152.
+ 1 APPPATH/Controllers/CategoryController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 152)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:36:00 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 152.
+ 1 APPPATH/Controllers/CategoryController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 152)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:36:20 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 152.
+ 1 APPPATH/Controllers/CategoryController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 152)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:37:43 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 153.
+ 1 APPPATH/Controllers/CategoryController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 153)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:38:13 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 153.
+ 1 APPPATH/Controllers/CategoryController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 153)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:42:26 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 153.
+ 1 APPPATH/Controllers/CategoryController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 153)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:44:40 --> Undefined property: App\Controllers\CategoryController::$CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 153.
+ 1 APPPATH/Controllers/CategoryController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CategoryController::$CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 153)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->deleteRecord()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 06:58:50 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 42.
+ 1 APPPATH/Views/Category/AddSubcategory.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 42)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(152): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->updateSubcategory()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:08:10 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 130.
+ 1 APPPATH/Controllers/CategoryController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 130)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:09:52 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 130.
+ 1 APPPATH/Controllers/CategoryController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 130)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:11:19 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 130.
+ 1 APPPATH/Controllers/CategoryController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 130)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:14:34 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(167): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:15:42 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(168): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:16:36 --> Undefined variable $data
+in APPPATH/Controllers/CategoryController.php on line 168.
+ 1 APPPATH/Controllers/CategoryController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 168)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:17:16 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(168): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:19:06 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 168.
+ 1 APPPATH/Controllers/CategoryController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 168)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:19:51 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(171): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:20:09 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [...], true)
+ 5 APPPATH/Controllers/CategoryController.php(171): view('Category/AddSubcategory', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:21:34 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(168): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:22:33 --> Undefined variable $CategoryList
+in APPPATH/Views/Category/ViewCategory.php on line 50.
+ 1 APPPATH/Views/Category/ViewCategory.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/ViewCategory.php', 50)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/ViewCategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/ViewCategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(99): view('Category/ViewCategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->UpdateCategory()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:22:44 --> Undefined variable $CategoryList
+in APPPATH/Views/Category/ViewCategory.php on line 50.
+ 1 APPPATH/Views/Category/ViewCategory.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/ViewCategory.php', 50)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/ViewCategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/ViewCategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(99): view('Category/ViewCategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->UpdateCategory()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:28:29 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(169): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:34:44 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(169): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:35:03 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(169): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:35:52 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(169): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:36:29 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(169): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 07:37:10 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(169): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:26:22 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:27:12 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 188.
+ 1 APPPATH/Controllers/CategoryController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 188)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:27:54 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 188.
+ 1 APPPATH/Controllers/CategoryController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 188)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:28:14 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:34:55 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:35:01 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:52:57 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 52.
+ 1 APPPATH/Views/Category/AddSubcategory.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:55:40 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 52.
+ 1 APPPATH/Views/Category/AddSubcategory.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:56:34 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 52.
+ 1 APPPATH/Views/Category/AddSubcategory.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:57:57 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 52.
+ 1 APPPATH/Views/Category/AddSubcategory.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 08:58:34 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 52.
+ 1 APPPATH/Views/Category/AddSubcategory.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:00:42 --> syntax error, unexpected token "=>", expecting ")"
+in APPPATH/Controllers/CategoryController.php on line 188.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CategoryController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CategoryController')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\CategoryController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:01:14 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH/Controllers/CategoryController.php on line 195.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CategoryController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CategoryController')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\CategoryController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:03:48 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 188.
+ 1 APPPATH/Controllers/CategoryController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 188)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:10:24 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 189.
+ 1 APPPATH/Controllers/CategoryController.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:18:57 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 52.
+ 1 APPPATH/Views/Category/AddSubcategory.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(169): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:23:47 --> CodeIgniter\HTTP\Response::redirect(): Argument #2 ($method) must be of type string, array given, called in /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php on line 165
+in SYSTEMPATH/HTTP/ResponseTrait.php on line 504.
+ 1 APPPATH/Controllers/CategoryController.php(165): CodeIgniter\HTTP\Response->redirect('https://solapurzp.satarait.com/ViewSubcategory', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:25:09 --> CodeIgniter\HTTP\Response::redirect(): Argument #2 ($method) must be of type string, array given, called in /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php on line 136
+in SYSTEMPATH/HTTP/ResponseTrait.php on line 504.
+ 1 APPPATH/Controllers/CategoryController.php(136): CodeIgniter\HTTP\Response->redirect('https://solapurzp.satarait.com/ViewSubcategory', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:26:13 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 130.
+ 1 APPPATH/Controllers/CategoryController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 130)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:29:38 --> CodeIgniter\HTTP\Response::redirect(): Argument #2 ($method) must be of type string, array given, called in /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php on line 136
+in SYSTEMPATH/HTTP/ResponseTrait.php on line 504.
+ 1 APPPATH/Controllers/CategoryController.php(136): CodeIgniter\HTTP\Response->redirect('https://solapurzp.satarait.com/ViewSubcategory', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:32:44 --> CodeIgniter\HTTP\Response::redirect(): Argument #2 ($method) must be of type string, array given, called in /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php on line 136
+in SYSTEMPATH/HTTP/ResponseTrait.php on line 504.
+ 1 APPPATH/Controllers/CategoryController.php(136): CodeIgniter\HTTP\Response->redirect('https://solapurzp.satarait.com/ViewSubcategory', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:34:41 --> Undefined variable $sub_category
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_category', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(153): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->updateSubcategory()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:34:53 --> CodeIgniter\HTTP\Response::redirect(): Argument #2 ($method) must be of type string, array given, called in /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php on line 136
+in SYSTEMPATH/HTTP/ResponseTrait.php on line 504.
+ 1 APPPATH/Controllers/CategoryController.php(136): CodeIgniter\HTTP\Response->redirect('https://solapurzp.satarait.com/ViewSubcategory', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:36:32 --> Undefined variable $sub_category
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_category', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(154): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->updateSubcategory()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:49:51 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 130.
+ 1 APPPATH/Controllers/CategoryController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 130)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:50:33 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH/Views/Vendor/AddVendor.php on line 205.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/AddVendor', [], true)
+ 3 APPPATH/Controllers/VendorController.php(16): view('Vendor/AddVendor')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:51:23 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH/Views/Vendor/AddVendor.php on line 205.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/AddVendor', [], true)
+ 3 APPPATH/Controllers/VendorController.php(16): view('Vendor/AddVendor')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:51:40 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH/Views/Vendor/AddVendor.php on line 205.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/AddVendor', [], true)
+ 3 APPPATH/Controllers/VendorController.php(16): view('Vendor/AddVendor')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:51:52 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH/Views/Vendor/AddVendor.php on line 205.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/AddVendor', [], true)
+ 3 APPPATH/Controllers/VendorController.php(16): view('Vendor/AddVendor')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:52:28 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 146.
+ 1 APPPATH/Controllers/CategoryController.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 146)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:53:17 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 147.
+ 1 APPPATH/Controllers/CategoryController.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 147)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 09:59:26 --> strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH/Validation/Validation.php on line 935.
+ 1 SYSTEMPATH/Validation/Validation.php(935): strpos('required|regex_match[/^[0-9]{10}$/', '|', 35)
+ 2 SYSTEMPATH/Validation/Validation.php(578): CodeIgniter\Validation\Validation->splitRules([...])
+ 3 APPPATH/Controllers/VendorController.php(112): CodeIgniter\Validation\Validation->setRules([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:02:01 --> strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH/Validation/Validation.php on line 935.
+ 1 SYSTEMPATH/Validation/Validation.php(935): strpos('required|regex_match[/^[0-9]{10}$/', '|', 35)
+ 2 SYSTEMPATH/Validation/Validation.php(578): CodeIgniter\Validation\Validation->splitRules([...])
+ 3 APPPATH/Controllers/VendorController.php(112): CodeIgniter\Validation\Validation->setRules([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:02:34 --> strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH/Validation/Validation.php on line 935.
+ 1 SYSTEMPATH/Validation/Validation.php(935): strpos('required|regex_match[/^[0-9]{10}$/', '|', 35)
+ 2 SYSTEMPATH/Validation/Validation.php(578): CodeIgniter\Validation\Validation->splitRules([...])
+ 3 APPPATH/Controllers/VendorController.php(112): CodeIgniter\Validation\Validation->setRules([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:03:03 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 147.
+ 1 APPPATH/Controllers/CategoryController.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 147)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:05:29 --> preg_match(): No ending delimiter '/' found
+in SYSTEMPATH/Validation/FormatRules.php on line 173.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): No ending delimiter \'/\' found', '/home/satarait/public_html/solapurzp.satarait.com/system/Validation/FormatRules.php', 173)
+ 2 SYSTEMPATH/Validation/FormatRules.php(173): preg_match('/^[0-9]{10}', 'dffddfdfdf')
+ 3 SYSTEMPATH/Validation/StrictRules/FormatRules.php(269): CodeIgniter\Validation\FormatRules->regex_match('dffddfdfdf', '/^[0-9]{10}')
+ 4 SYSTEMPATH/Validation/Validation.php(311): CodeIgniter\Validation\StrictRules\FormatRules->regex_match('dffddfdfdf', '/^[0-9]{10}', [...], null, 'mobile_no')
+ 5 SYSTEMPATH/Validation/Validation.php(197): CodeIgniter\Validation\Validation->processRules('mobile_no', 'mobile_no', 'dffddfdfdf', [...], [...])
+ 6 APPPATH/Controllers/VendorController.php(114): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:05:55 --> preg_match(): No ending delimiter '/' found
+in SYSTEMPATH/Validation/FormatRules.php on line 173.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): No ending delimiter \'/\' found', '/home/satarait/public_html/solapurzp.satarait.com/system/Validation/FormatRules.php', 173)
+ 2 SYSTEMPATH/Validation/FormatRules.php(173): preg_match('/^[0-9]{10}', 'dffddfdfdf')
+ 3 SYSTEMPATH/Validation/StrictRules/FormatRules.php(269): CodeIgniter\Validation\FormatRules->regex_match('dffddfdfdf', '/^[0-9]{10}')
+ 4 SYSTEMPATH/Validation/Validation.php(311): CodeIgniter\Validation\StrictRules\FormatRules->regex_match('dffddfdfdf', '/^[0-9]{10}', [...], null, 'mobile_no')
+ 5 SYSTEMPATH/Validation/Validation.php(197): CodeIgniter\Validation\Validation->processRules('mobile_no', 'mobile_no', 'dffddfdfdf', [...], [...])
+ 6 APPPATH/Controllers/VendorController.php(114): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:09:17 --> syntax error, unexpected token ","
+in APPPATH/Controllers/VendorController.php on line 44.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\VendorController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\VendorController')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\VendorController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:11:06 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 147.
+ 1 APPPATH/Controllers/CategoryController.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 147)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:12:22 --> Undefined variable $image
+in APPPATH/Controllers/CategoryController.php on line 136.
+ 1 APPPATH/Controllers/CategoryController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 136)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:19:40 --> preg_match(): No ending delimiter '/' found
+in SYSTEMPATH/Validation/FormatRules.php on line 173.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): No ending delimiter \'/\' found', '/home/satarait/public_html/solapurzp.satarait.com/system/Validation/FormatRules.php', 173)
+ 2 SYSTEMPATH/Validation/FormatRules.php(173): preg_match('/^[0-9]{10}', 'dffddfdfdf')
+ 3 SYSTEMPATH/Validation/StrictRules/FormatRules.php(269): CodeIgniter\Validation\FormatRules->regex_match('dffddfdfdf', '/^[0-9]{10}')
+ 4 SYSTEMPATH/Validation/Validation.php(311): CodeIgniter\Validation\StrictRules\FormatRules->regex_match('dffddfdfdf', '/^[0-9]{10}', [...], null, 'mobile_no')
+ 5 SYSTEMPATH/Validation/Validation.php(197): CodeIgniter\Validation\Validation->processRules('mobile_no', 'mobile_no', 'dffddfdfdf', [...], [...])
+ 6 APPPATH/Controllers/VendorController.php(116): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:21:13 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(187): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:21:44 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:23:49 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:24:45 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 187.
+ 1 APPPATH/Controllers/CategoryController.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 187)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:24:59 --> Undefined variable $data
+in APPPATH/Controllers/CategoryController.php on line 188.
+ 1 APPPATH/Controllers/CategoryController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 188)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:25:12 --> Undefined variable $data
+in APPPATH/Controllers/CategoryController.php on line 188.
+ 1 APPPATH/Controllers/CategoryController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 188)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:25:38 --> Undefined variable $data
+in APPPATH/Controllers/CategoryController.php on line 189.
+ 1 APPPATH/Controllers/CategoryController.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:25:56 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:27:06 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 190.
+ 1 APPPATH/Controllers/CategoryController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 190)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:27:40 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:28:46 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/CategoryController.php on line 113.
+ 1 APPPATH/Controllers/CategoryController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 113)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:30:58 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:37:32 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:38:51 --> preg_match(): No ending delimiter '/' found
+in SYSTEMPATH/Validation/FormatRules.php on line 173.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): No ending delimiter \'/\' found', '/home/satarait/public_html/solapurzp.satarait.com/system/Validation/FormatRules.php', 173)
+ 2 SYSTEMPATH/Validation/FormatRules.php(173): preg_match('/^[0-9]{10}', 'dsdfgg')
+ 3 SYSTEMPATH/Validation/StrictRules/FormatRules.php(269): CodeIgniter\Validation\FormatRules->regex_match('dsdfgg', '/^[0-9]{10}')
+ 4 SYSTEMPATH/Validation/Validation.php(311): CodeIgniter\Validation\StrictRules\FormatRules->regex_match('dsdfgg', '/^[0-9]{10}', [...], null, 'mobile_no')
+ 5 SYSTEMPATH/Validation/Validation.php(197): CodeIgniter\Validation\Validation->processRules('mobile_no', 'mobile_no', 'dsdfgg', [...], [...])
+ 6 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH/Controllers/VendorController.php(114): CodeIgniter\Controller->validate([...], [...])
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:43:52 --> Undefined variable $data
+in APPPATH/Controllers/CategoryController.php on line 188.
+ 1 APPPATH/Controllers/CategoryController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/CategoryController.php', 188)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:44:37 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(190): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:45:13 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:48:43 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 51.
+ 1 APPPATH/Views/Category/AddSubcategory.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 51)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(187): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:50:55 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 55.
+ 1 APPPATH/Views/Category/AddSubcategory.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(187): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:53:53 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 55.
+ 1 APPPATH/Views/Category/AddSubcategory.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(188): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 10:54:43 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 55.
+ 1 APPPATH/Views/Category/AddSubcategory.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(187): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:10:13 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 55.
+ 1 APPPATH/Views/Category/AddSubcategory.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(206): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:10:34 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 55.
+ 1 APPPATH/Views/Category/AddSubcategory.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(206): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:12:53 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 55.
+ 1 APPPATH/Views/Category/AddSubcategory.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(206): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:19:10 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 55.
+ 1 APPPATH/Views/Category/AddSubcategory.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(206): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:36:32 --> Undefined variable $categoryList
+in APPPATH/Views/Category/AddSubcategory.php on line 55.
+ 1 APPPATH/Views/Category/AddSubcategory.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Category/AddSubcategory.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Category/AddSubcategory', [], true)
+ 5 APPPATH/Controllers/CategoryController.php(206): view('Category/AddSubcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->SubcategoryInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:54:30 --> Undefined variable $CategoryList
+in APPPATH/Views/Vendor/viewVendor.php on line 52.
+ 1 APPPATH/Views/Vendor/viewVendor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/viewVendor', [], true)
+ 5 APPPATH/Controllers/VendorController.php(12): view('Vendor/viewVendor')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->viewVendor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:55:00 --> Undefined variable $VendorList
+in APPPATH/Views/Vendor/viewVendor.php on line 52.
+ 1 APPPATH/Views/Vendor/viewVendor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $VendorList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/viewVendor', [], true)
+ 5 APPPATH/Controllers/VendorController.php(12): view('Vendor/viewVendor')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->viewVendor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:55:03 --> Undefined variable $VendorList
+in APPPATH/Views/Vendor/viewVendor.php on line 52.
+ 1 APPPATH/Views/Vendor/viewVendor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $VendorList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/viewVendor', [], true)
+ 5 APPPATH/Controllers/VendorController.php(12): view('Vendor/viewVendor')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->viewVendor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:55:48 --> Undefined variable $VendorList
+in APPPATH/Views/Vendor/viewVendor.php on line 52.
+ 1 APPPATH/Views/Vendor/viewVendor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $VendorList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/viewVendor', [], true)
+ 5 APPPATH/Controllers/VendorController.php(12): view('Vendor/viewVendor')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->viewVendor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:56:13 --> Undefined variable $VendorList
+in APPPATH/Views/Vendor/viewVendor.php on line 52.
+ 1 APPPATH/Views/Vendor/viewVendor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $VendorList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/viewVendor', [], true)
+ 5 APPPATH/Controllers/VendorController.php(12): view('Vendor/viewVendor')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->viewVendor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 12:56:17 --> Undefined variable $VendorList
+in APPPATH/Views/Vendor/viewVendor.php on line 52.
+ 1 APPPATH/Views/Vendor/viewVendor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $VendorList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/viewVendor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/viewVendor', [], true)
+ 5 APPPATH/Controllers/VendorController.php(12): view('Vendor/viewVendor')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->viewVendor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 13:06:08 --> Undefined variable $CategoryModel
+in APPPATH/Controllers/VendorController.php on line 13.
+ 1 APPPATH/Controllers/VendorController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoryModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->viewVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

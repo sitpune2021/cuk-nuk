@@ -1,0 +1,159 @@
+CRITICAL - 2024-04-25 00:50:35 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 03:08:19 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 04:55:52 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 09:11:45 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 09:23:52 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 09:52:45 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 11:49:20 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 17:11:39 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 21:20:01 --> Trying to access array offset on value of type null
+in APPPATH/Views/productDetails.php on line 37.
+ 1 APPPATH/Views/productDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Views/productDetails.php', 37)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('productDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('productDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-25 22:27:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-04-25 22:27:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-25 22:27:02 --> 
+ERROR - 2024-04-25 22:27:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(60): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-04-25 22:27:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-25 22:27:03 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-25 23:08:39 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(58): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-04-25 23:08:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-25 23:08:39 --> 
+ERROR - 2024-04-25 23:08:40 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/anujyotindustrie/public_html/system/Email/Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/home/anujyotin...', 1891)
+#1 /home/anujyotindustrie/public_html/system/Email/Email.php(1891): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 /home/anujyotindustrie/public_html/system/Email/Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/anujyotindustrie/public_html/system/Email/Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/anujyotindustrie/public_html/system/Email/Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/anujyotindustrie/public_html/app/Controllers/ContactController.php(60): CodeIgniter\Email\Email->send()
+#6 /home/anujyotindustrie/public_html/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactProcess()
+#7 /home/anujyotindustrie/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/anujyotindustrie/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/anujyotindustrie/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-04-25 23:08:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-25 23:08:40 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.

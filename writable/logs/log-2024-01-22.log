@@ -1,0 +1,615 @@
+CRITICAL - 2024-01-22 05:15:11 --> Undefined array key "vendor_image"
+in APPPATH/Controllers/VendorController.php on line 101.
+ 1 APPPATH/Controllers/VendorController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_image"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 05:20:37 --> Undefined array key "vendor_image"
+in APPPATH/Controllers/VendorController.php on line 101.
+ 1 APPPATH/Controllers/VendorController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_image"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 05:24:59 --> Undefined array key "vendor_image"
+in APPPATH/Controllers/VendorController.php on line 101.
+ 1 APPPATH/Controllers/VendorController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_image"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 05:26:55 --> "email" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 319.
+ 1 SYSTEMPATH/Validation/Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('email')
+ 2 SYSTEMPATH/Validation/Validation.php(197): CodeIgniter\Validation\Validation->processRules('email', 'email', 'nikitananaware1010@gmail.com', [...], [...])
+ 3 APPPATH/Controllers/ContactController.php(43): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 05:27:50 --> Undefined array key "vendor_image"
+in APPPATH/Controllers/VendorController.php on line 101.
+ 1 APPPATH/Controllers/VendorController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_image"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-22 05:34:41 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home/satarait/public_html/solapurzp.satarait.com/app/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+#5 /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/ContactController.php(51): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+#6 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+#7 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/satarait/public_html/solapurzp.satarait.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-22 05:34:41 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact` (`pager`) VALUES (:pager:)', [...], false)
+ 2 APPPATH/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+ 3 APPPATH/Controllers/ContactController.php(51): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-22 05:34:59 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home/satarait/public_html/solapurzp.satarait.com/app/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+#5 /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/ContactController.php(51): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+#6 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+#7 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/satarait/public_html/solapurzp.satarait.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-22 05:34:59 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact` (`pager`) VALUES (:pager:)', [...], false)
+ 2 APPPATH/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+ 3 APPPATH/Controllers/ContactController.php(51): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-22 05:47:26 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home/satarait/public_html/solapurzp.satarait.com/app/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+#5 /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/ContactController.php(55): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+#6 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+#7 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/satarait/public_html/solapurzp.satarait.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-22 05:47:26 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact` (`pager`) VALUES (:pager:)', [...], false)
+ 2 APPPATH/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+ 3 APPPATH/Controllers/ContactController.php(55): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-22 06:03:04 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home/satarait/public_html/solapurzp.satarait.com/app/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+#5 /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/ContactController.php(55): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+#6 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+#7 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/satarait/public_html/solapurzp.satarait.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-22 06:03:04 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact` (`pager`) VALUES (:pager:)', [...], false)
+ 2 APPPATH/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+ 3 APPPATH/Controllers/ContactController.php(55): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 06:04:57 --> Undefined variable $contactData
+in APPPATH/Controllers/ContactController.php on line 47.
+ 1 APPPATH/Controllers/ContactController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contactData', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/ContactController.php', 47)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-22 06:05:29 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home/satarait/public_html/solapurzp.satarait.com/app/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+#5 /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/ContactController.php(55): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+#6 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+#7 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/satarait/public_html/solapurzp.satarait.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-22 06:05:29 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact` (`pager`) VALUES (:pager:)', [...], false)
+ 2 APPPATH/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+ 3 APPPATH/Controllers/ContactController.php(55): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 06:06:05 --> Undefined variable $contactData
+in APPPATH/Controllers/ContactController.php on line 17.
+ 1 APPPATH/Controllers/ContactController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contactData', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/ContactController.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-22 06:10:53 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/satarait/public_html/solapurzp.satarait.com/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home/satarait/public_html/solapurzp.satarait.com/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home/satarait/public_html/solapurzp.satarait.com/app/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+#5 /home/satarait/public_html/solapurzp.satarait.com/app/Controllers/ContactController.php(58): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+#6 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+#7 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#8 /home/satarait/public_html/solapurzp.satarait.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/satarait/public_html/solapurzp.satarait.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-22 06:10:53 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact` (`pager`) VALUES (:pager:)', [...], false)
+ 2 APPPATH/Models/ContactModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Object(App\Models\ContactModel))
+ 3 APPPATH/Controllers/ContactController.php(58): App\Models\ContactModel->insertContact(Object(App\Models\ContactModel))
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ContactController->ContactInserted()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 06:19:08 --> Class "App\Controllers\ContactModel" not found
+in APPPATH/Controllers/Home.php on line 216.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ContactInserted()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 07:02:33 --> Undefined variable $LoginModel
+in APPPATH/Controllers/Home.php on line 222.
+ 1 APPPATH/Controllers/Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LoginModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/Home.php', 222)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ContactInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 07:03:28 --> Undefined variable $LoginModel
+in APPPATH/Controllers/Home.php on line 222.
+ 1 APPPATH/Controllers/Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LoginModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/Home.php', 222)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ContactInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 07:06:33 --> Class "App\Controllers\ContactModel" not found
+in APPPATH/Controllers/Home.php on line 222.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ContactInserted()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 07:25:44 --> Invalid file: "Registration.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Registration.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Registration', [], true)
+ 3 APPPATH/Controllers/Home.php(43): view('Registration')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->Registration()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 07:26:37 --> Invalid file: "Registration.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Registration.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Registration', [], true)
+ 3 APPPATH/Controllers/Home.php(43): view('Registration')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->Registration()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 07:45:29 --> Invalid file: "Registration.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Registration.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Registration', [], true)
+ 3 APPPATH/Controllers/Home.php(41): view('Registration')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->Registration()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 07:45:54 --> Cannot use App\Models\vendorModel as vendorModel because the name is already in use
+in APPPATH/Controllers/Home.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-22 07:48:10 --> Class "App\Controllers\UserModel" not found
+in APPPATH/Controllers/Home.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->RegistrationProcess()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 07:49:06 --> Class "App\Controllers\UserModel" not found
+in APPPATH/Controllers/Home.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->RegistrationProcess()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 09:44:32 --> Undefined variable $li
+in APPPATH/Views/Front/index.php on line 57.
+ 1 APPPATH/Views/Front/index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $li', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 57)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(32): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 09:44:32 --> Undefined variable $li
+in APPPATH/Views/Front/index.php on line 57.
+ 1 APPPATH/Views/Front/index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $li', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 57)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(32): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 09:45:21 --> Undefined variable $li
+in APPPATH/Views/Front/index.php on line 57.
+ 1 APPPATH/Views/Front/index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $li', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 57)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(32): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 09:55:00 --> Undefined property: App\Controllers\VendorController::$session
+in APPPATH/Controllers/VendorController.php on line 234.
+ 1 APPPATH/Controllers/VendorController.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VendorController::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 234)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 09:58:29 --> Undefined property: App\Controllers\VendorController::$session
+in APPPATH/Controllers/VendorController.php on line 234.
+ 1 APPPATH/Controllers/VendorController.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VendorController::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 234)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 09:58:35 --> Undefined property: App\Controllers\VendorController::$session
+in APPPATH/Controllers/VendorController.php on line 234.
+ 1 APPPATH/Controllers/VendorController.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VendorController::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 234)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendorProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:45:43 --> Undefined property: App\Controllers\UserController::$session
+in APPPATH/Controllers/UserController.php on line 85.
+ 1 APPPATH/Controllers/UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/UserController.php', 85)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->AddUserProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:46:36 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH/Controllers/UserController.php on line 85.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->AddUserProcess()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:46:59 --> Undefined property: App\Controllers\UserController::$session
+in APPPATH/Controllers/UserController.php on line 85.
+ 1 APPPATH/Controllers/UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/UserController.php', 85)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->AddUserProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:49:44 --> Undefined property: App\Controllers\UserController::$session
+in APPPATH/Controllers/UserController.php on line 85.
+ 1 APPPATH/Controllers/UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/UserController.php', 85)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->AddUserProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:49:48 --> Undefined property: App\Controllers\UserController::$session
+in APPPATH/Controllers/UserController.php on line 85.
+ 1 APPPATH/Controllers/UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/UserController.php', 85)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->AddUserProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:50:24 --> Undefined property: App\Controllers\UserController::$session
+in APPPATH/Controllers/UserController.php on line 86.
+ 1 APPPATH/Controllers/UserController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/UserController.php', 86)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->AddUserProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:51:00 --> Undefined variable $MenuD
+in APPPATH/Views/Front/MenuCard.php on line 22.
+ 1 APPPATH/Views/Front/MenuCard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MenuD', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/MenuCard.php', 22)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/MenuCard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/MenuCard', [], true)
+ 5 APPPATH/Controllers/Home.php(37): view('Front/MenuCard')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->MenuCard()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:51:34 --> Array callback must have exactly two elements
+in APPPATH/Controllers/UserController.php on line 84.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->AddUserProcess()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 10:52:26 --> Undefined variable $MenuD
+in APPPATH/Views/Front/MenuCard.php on line 22.
+ 1 APPPATH/Views/Front/MenuCard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MenuD', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/MenuCard.php', 22)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/MenuCard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/MenuCard', [], true)
+ 5 APPPATH/Controllers/Home.php(37): view('Front/MenuCard')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->MenuCard()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 11:07:57 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Menu/ViewMenu.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Menu/ViewMenu.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Menu/ViewMenu', [], true)
+ 9 APPPATH/Controllers/MenuController.php(160): view('Admin/Menu/ViewMenu', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MenuController->ViewMenu()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 11:08:03 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Menu/ViewMenu.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Menu/ViewMenu.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Menu/ViewMenu', [], true)
+ 9 APPPATH/Controllers/MenuController.php(160): view('Admin/Menu/ViewMenu', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MenuController->ViewMenu()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 11:08:04 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Menu/ViewMenu.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Menu/ViewMenu.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Menu/ViewMenu', [], true)
+ 9 APPPATH/Controllers/MenuController.php(160): view('Admin/Menu/ViewMenu', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MenuController->ViewMenu()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 12:17:20 --> Undefined variable $pan_upload
+in APPPATH/Controllers/DeliveryboyController.php on line 131.
+ 1 APPPATH/Controllers/DeliveryboyController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pan_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/DeliveryboyController.php', 131)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->DeliveryboyInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 12:25:32 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Vendor/VendorDashboard.php(9): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/VendorDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/VendorDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(13): view('Vendor/VendorDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->VendorDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 12:25:36 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Vendor/VendorDashboard.php(9): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/VendorDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/VendorDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(13): view('Vendor/VendorDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->VendorDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 12:25:38 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Vendor/VendorDashboard.php(9): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/VendorDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/VendorDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(13): view('Vendor/VendorDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->VendorDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 12:25:41 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Vendor/VendorDashboard.php(9): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/VendorDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/VendorDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(13): view('Vendor/VendorDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->VendorDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 12:25:42 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Vendor/VendorDashboard.php(9): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/VendorDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/VendorDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(13): view('Vendor/VendorDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->VendorDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 12:25:45 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Vendor/VendorDashboard.php(9): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/VendorDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/VendorDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(13): view('Vendor/VendorDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->VendorDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:03:58 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 28.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 28)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:05:57 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 29.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:05:59 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 29.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:06:45 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 29.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:07:15 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 29.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:07:18 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 29.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:07:18 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 29.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:07:19 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 29.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 15:07:34 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Admin/User/ViewUser.php on line 29.
+ 1 APPPATH/Views/Admin/User/ViewUser.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/User/ViewUser.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/User/ViewUser', [], true)
+ 5 APPPATH/Controllers/UserController.php(25): view('Admin/User/ViewUser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->ViewUser()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,14 @@
+CRITICAL - 2024-03-08 16:06:00 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Home.php on line 57.
+ 1 APPPATH/Controllers/Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Controllers/Home.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:06:00 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Home.php on line 57.
+ 1 APPPATH/Controllers/Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Controllers/Home.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

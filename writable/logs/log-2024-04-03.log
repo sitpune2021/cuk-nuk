@@ -1,0 +1,68 @@
+CRITICAL - 2024-04-03 10:44:40 --> Undefined variable $categoryList
+in APPPATH/Views/Admin/AddProducts.php on line 55.
+ 1 APPPATH/Views/Admin/AddProducts.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/anujyotindustrie/public_html/app/Views/Admin/AddProducts.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/Admin/AddProducts.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/AddProducts', [], true)
+ 5 APPPATH/Controllers/ProductController.php(133): view('Admin/AddProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ProductController->ProductInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 10:55:28 --> Undefined variable $categoryList
+in APPPATH/Views/Admin/AddProducts.php on line 55.
+ 1 APPPATH/Views/Admin/AddProducts.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', '/home/anujyotindustrie/public_html/app/Views/Admin/AddProducts.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/Admin/AddProducts.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/AddProducts', [], true)
+ 5 APPPATH/Controllers/ProductController.php(133): view('Admin/AddProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ProductController->ProductInserted()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 11:12:33 --> Undefined variable $imageValidationRules
+in APPPATH/Controllers/ProductController.php on line 72.
+ 1 APPPATH/Controllers/ProductController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageValidationRules', '/home/anujyotindustrie/public_html/app/Controllers/ProductController.php', 72)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ProductController->ProductInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 11:13:12 --> Undefined variable $imageValidationRules
+in APPPATH/Controllers/ProductController.php on line 72.
+ 1 APPPATH/Controllers/ProductController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageValidationRules', '/home/anujyotindustrie/public_html/app/Controllers/ProductController.php', 72)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ProductController->ProductInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 11:19:49 --> Undefined array key "name"
+in APPPATH/Views/Product.php on line 38.
+ 1 APPPATH/Views/Product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/anujyotindustrie/public_html/app/Views/Product.php', 38)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/anujyotindustrie/public_html/app/Views/Product.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Product', [], true)
+ 5 APPPATH/Controllers/Home.php(52): view('Product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->Product()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 12:16:03 --> Undefined array key "image"
+in APPPATH/Controllers/ProductController.php on line 56.
+ 1 APPPATH/Controllers/ProductController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', '/home/anujyotindustrie/public_html/app/Controllers/ProductController.php', 56)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ProductController->ProductInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 12:17:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Controllers/Home.php', 59)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 12:17:29 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/anujyotindustrie/public_html/app/Controllers/Home.php', 59)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->productDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

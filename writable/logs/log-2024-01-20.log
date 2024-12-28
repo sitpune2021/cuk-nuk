@@ -1,0 +1,888 @@
+CRITICAL - 2024-01-20 05:06:22 --> Array to string conversion
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:09:21 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 23.
+ 1 APPPATH/Controllers/VendorMenuController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 23)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:11:37 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:13:29 --> Undefined variable $vendorid
+in APPPATH/Controllers/VendorMenuController.php on line 27.
+ 1 APPPATH/Controllers/VendorMenuController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorid', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 27)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:20:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 884.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/VendorMenuController.php(27): CodeIgniter\Model->__call('getVendorMenuListById', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:27:32 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 25.
+ 1 APPPATH/Controllers/VendorMenuController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:28:43 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 25.
+ 1 APPPATH/Controllers/VendorMenuController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:28:46 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 25.
+ 1 APPPATH/Controllers/VendorMenuController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:37:50 --> Undefined variable $result
+in APPPATH/Controllers/VendorMenuController.php on line 23.
+ 1 APPPATH/Controllers/VendorMenuController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 23)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:37:54 --> Undefined variable $result
+in APPPATH/Controllers/VendorMenuController.php on line 23.
+ 1 APPPATH/Controllers/VendorMenuController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 23)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:40:38 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:43:03 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:43:33 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:44:14 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:44:22 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:45:34 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:45:36 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:45:36 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:45:36 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:45:42 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:45:43 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:45:43 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:45:52 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/Home.php', 59)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->signIn()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:46:16 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:46:58 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/Home.php', 59)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->signIn()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:47:34 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 24.
+ 1 APPPATH/Controllers/VendorMenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 05:50:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 884.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/VendorMenuController.php(30): CodeIgniter\Model->__call('getVendorMenuListById', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:11:23 --> Undefined array key "mobile_no"
+in APPPATH/Controllers/VendorMenuController.php on line 28.
+ 1 APPPATH/Controllers/VendorMenuController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mobile_no"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:11:39 --> Undefined array key "mobile_no"
+in APPPATH/Controllers/VendorMenuController.php on line 28.
+ 1 APPPATH/Controllers/VendorMenuController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mobile_no"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorViewMenu()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:13:25 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:13:56 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:13:57 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:13:58 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:13:58 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:14:00 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:14:17 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:24:56 --> Undefined variable $vendorId
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorId', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:26:44 --> Array to string conversion
+in APPPATH/Controllers/VendorController.php on line 25.
+ 1 APPPATH/Controllers/VendorController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:32:05 --> Undefined variable $vendorId
+in APPPATH/Controllers/VendorController.php on line 21.
+ 1 APPPATH/Controllers/VendorController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorId', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 21)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:33:15 --> Undefined variable $vendorId
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorId', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:33:34 --> Undefined variable $vendorId
+in APPPATH/Controllers/VendorController.php on line 20.
+ 1 APPPATH/Controllers/VendorController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorId', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorController->AddVendor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:44:42 --> Undefined array key "vendor_id"
+in APPPATH/Controllers/VendorMenuController.php on line 89.
+ 1 APPPATH/Controllers/VendorMenuController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 89)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorAddMenuProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 06:52:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 884.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/VendorMenuController.php(85): CodeIgniter\Model->__call('getVendorIdByLoginId', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorAddMenuProcess()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 07:03:07 --> Undefined array key "login_id"
+in APPPATH/Controllers/VendorMenuController.php on line 79.
+ 1 APPPATH/Controllers/VendorMenuController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login_id"', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 79)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorAddMenuProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 07:26:44 --> Undefined variable $vendorModel
+in APPPATH/Controllers/VendorMenuController.php on line 78.
+ 1 APPPATH/Controllers/VendorMenuController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorModel', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/VendorMenuController.php', 78)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\VendorMenuController->VendorAddMenuProcess()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorMenuController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 08:18:31 --> Invalid file: "index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH/Controllers/Home.php(22): view('index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 08:35:05 --> Invalid file: "index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH/Controllers/Home.php(110): view('index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->signIn()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 09:54:11 --> Undefined variable $pan_upload
+in APPPATH/Controllers/DeliveryboyController.php on line 131.
+ 1 APPPATH/Controllers/DeliveryboyController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pan_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/DeliveryboyController.php', 131)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->DeliveryboyInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 09:57:15 --> Undefined variable $pan_upload
+in APPPATH/Controllers/DeliveryboyController.php on line 131.
+ 1 APPPATH/Controllers/DeliveryboyController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pan_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/DeliveryboyController.php', 131)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->DeliveryboyInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 10:09:52 --> Undefined variable $MenuD
+in APPPATH/Views/Login.php on line 499.
+ 1 APPPATH/Views/Login.php(499): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MenuD', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Login.php', 499)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Login.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Login', [], true)
+ 5 APPPATH/Controllers/Home.php(27): view('Login')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->Login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 10:10:34 --> Undefined variable $list
+in APPPATH/Views/Login.php on line 503.
+ 1 APPPATH/Views/Login.php(503): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Login.php', 503)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Login.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Login', [], true)
+ 5 APPPATH/Controllers/Home.php(27): view('Login')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->Login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 10:11:16 --> Undefined variable $pan_upload
+in APPPATH/Controllers/DeliveryboyController.php on line 131.
+ 1 APPPATH/Controllers/DeliveryboyController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pan_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/DeliveryboyController.php', 131)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->DeliveryboyInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 10:27:13 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Vendor/VendorDashboard.php(9): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/VendorDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/VendorDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(13): view('Vendor/VendorDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->VendorDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 10:29:08 --> Undefined variable $pan_upload
+in APPPATH/Controllers/DeliveryboyController.php on line 131.
+ 1 APPPATH/Controllers/DeliveryboyController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pan_upload', '/home/satarait/public_html/solapurzp.satarait.com/app/Controllers/DeliveryboyController.php', 131)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->DeliveryboyInserted()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 10:35:51 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/AdminDashboard.php(13): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/AdminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/AdminDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(9): view('Admin/AdminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->AdminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 10:35:53 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Vendor/VendorDashboard.php(9): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Vendor/VendorDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Vendor/VendorDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(13): view('Vendor/VendorDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->VendorDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 10:36:15 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/AdminDashboard.php(13): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/AdminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/AdminDashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(9): view('Admin/AdminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->AdminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 11:31:38 --> Invalid file: "include/footer.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('include/footer.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('include/footer.php', [], true)
+ 3 APPPATH/Views/Front/index.php(1095): view('include/footer.php')
+ 4 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 7 APPPATH/Controllers/Home.php(22): view('Front/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:16:14 --> Invalid file: "Contactus.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Contactus.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Contactus', [], true)
+ 3 APPPATH/Controllers/Home.php(27): view('Contactus')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->Contactus()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:16:25 --> Unclosed '{' on line 74
+in APPPATH/Views/Login.php on line 123.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Login', [], true)
+ 3 APPPATH/Controllers/Home.php(31): view('Login')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->Login()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:20:45 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:20:59 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:34:22 --> Class "App\Controllers\vendorModel" not found
+in APPPATH/Controllers/Home.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:34:23 --> Class "App\Controllers\vendorModel" not found
+in APPPATH/Controllers/Home.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:34:30 --> Class "App\Controllers\vendorModel" not found
+in APPPATH/Controllers/Home.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:34:34 --> Class "App\Controllers\vendorModel" not found
+in APPPATH/Controllers/Home.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:34:46 --> Class "App\Controllers\vendorModel" not found
+in APPPATH/Controllers/Home.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:34:47 --> Class "App\Controllers\vendorModel" not found
+in APPPATH/Controllers/Home.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:36:21 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:40:27 --> Undefined variable $VendorList
+in APPPATH/Views/Front/index.php on line 283.
+ 1 APPPATH/Views/Front/index.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $VendorList', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 283)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(30): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:42:20 --> Class "App\Models\VendorModel" not found
+in APPPATH/Controllers/Home.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:58:14 --> Undefined array key "description"
+in APPPATH/Views/Front/index.php on line 308.
+ 1 APPPATH/Views/Front/index.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 308)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 12:58:24 --> Undefined array key "description"
+in APPPATH/Views/Front/index.php on line 308.
+ 1 APPPATH/Views/Front/index.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 308)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:01:33 --> Undefined array key "image"
+in APPPATH/Views/Front/index.php on line 289.
+ 1 APPPATH/Views/Front/index.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 289)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:01:46 --> Undefined array key "image"
+in APPPATH/Views/Front/index.php on line 289.
+ 1 APPPATH/Views/Front/index.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 289)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:03:25 --> Undefined array key "image"
+in APPPATH/Views/Front/index.php on line 289.
+ 1 APPPATH/Views/Front/index.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php', 289)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Front/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Front/index', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('Front/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:07:36 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:07:39 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/AddSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/AddSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/AddSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(128): view('Admin/Category/AddSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->AddSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:07:42 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/ViewSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/ViewSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/ViewSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(241): view('Admin/Category/ViewSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->ViewSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:07:45 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/AddSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/AddSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/AddSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(128): view('Admin/Category/AddSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->AddSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:07:46 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:08:08 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:08:15 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/AddDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/AddDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/AddDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(13): view('Admin/Deliveryboy/AddDeliveryboy')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->AddDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:37 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:38 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:39 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/AddSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/AddSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/AddSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(128): view('Admin/Category/AddSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->AddSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:40 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Deliveryboy/ViewDeliveryboy.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Deliveryboy/ViewDeliveryboy.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Deliveryboy/ViewDeliveryboy', [], true)
+ 9 APPPATH/Controllers/DeliveryboyController.php(184): view('Admin/Deliveryboy/ViewDeliveryboy', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DeliveryboyController->ViewDeliveryboy()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeliveryboyController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:41 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/AddSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/AddSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/AddSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(128): view('Admin/Category/AddSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->AddSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:42 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/ViewSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/ViewSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/ViewSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(241): view('Admin/Category/ViewSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->ViewSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:43 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/ViewCategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/ViewCategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/ViewCategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(111): view('Admin/Category/ViewCategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->ViewCategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:43 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/AddSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/AddSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/AddSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(128): view('Admin/Category/AddSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->AddSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:46 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/AddSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/AddSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/AddSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(128): view('Admin/Category/AddSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->AddSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:10:47 --> Undefined array key "role"
+in APPPATH/Views/Include/header.php on line 6.
+ 1 APPPATH/Views/Include/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', '/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Include/header.php', [], true)
+ 5 APPPATH/Views/Admin/Category/AddSubcategory.php(19): view('Include/header.php')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/satarait/public_html/solapurzp.satarait.com/app/Views/Admin/Category/AddSubcategory.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Admin/Category/AddSubcategory', [], true)
+ 9 APPPATH/Controllers/CategoryController.php(128): view('Admin/Category/AddSubcategory', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CategoryController->AddSubcategory()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
