@@ -132,7 +132,13 @@ class ProductModel extends Model
 	}
     public function getCategoryProduct($id)
     {
-       $query = $this->db->query("SELECT * FROM tbl_product WHERE product_type=$id order by id desc");
+		$query = $this->db->query("SELECT * FROM tbl_product WHERE product_type=$id order by id desc");
+       return $query->getResultArray();
+	}
+	
+	public function getCatewiseProduct($id)
+    {
+		$query = $this->db->query("SELECT * FROM tbl_product WHERE product_type IN ($id) order by id desc");
        return $query->getResultArray();
 	}
     

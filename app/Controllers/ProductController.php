@@ -255,6 +255,40 @@ class ProductController extends BaseController
         }
     }
      
-    
+    public function getCategoryProduct()
+	{
+		$ProductModel   = new ProductModel();
+		$cat_id = isset($_POST['cat_id']) ? $_POST['cat_id'] : [];
+        $categories = "'" . implode("','", $cat_id) . "'";
+		
+		$data['ProductD'] = $ProductModel->getCatewiseProduct($categories);
+		
+        $html ='';
+        $html .='<div class="grid-products grid-view-items">
+                            <div class="row col-row product-options row-cols-lg-4 row-cols-md-3 row-cols-sm-3 row-cols-2 justify-content-center mt-2">';
+							
+			foreach ($data['ProductD'] as $row) {
+				$html .= '
+				<div class="item col-item">
+					<div class="product-box">
+						<div class="product-image">';
+						if (!empty($row['image'])) {
+							$html .= '<a href="' . base_url() . 'productDetails?per=' . $row['permalink'] . '" class="product-img rounded-0">
+										<img class="rounded-0 blur-up lazyload img-height" src="' . base_url() . 'public/Admin/assets/images/Product_images/' . $row['image'] . '" alt="Product" title="Product" />
+									  </a>';
+						}
+				$html .= '  </div>
+							<div class="product-details text-center">
+								<div class="product-name">
+									<a href="' . base_url() . 'productDetails?per=' . $row['permalink'] . '">' . $row['product_name'] . '</a>
+								</div>
+							</div>
+						</div>
+					</div>';
+			}
+			$html .= '</div></div>';
+
+			echo $html;
+	}
     
 }

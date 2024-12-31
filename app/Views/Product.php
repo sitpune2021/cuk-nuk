@@ -7,6 +7,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Title Of Site -->
         <title>Products</title>
+	<style>
+	.filter-section {
+    padding: 20px; 
+    border: 1px solid #ddd;
+    background-color: #f3fbe1; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+	margin-top: 30px
+}
+
+.filter-section h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    color: #333; 
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.form-check-input {
+    margin-top: 3px; 
+}
+
+.form-check-label {
+    font-size: 16px; 
+    color: #000; 
+}
+
+.form-check-label {
+    margin-left: 8px; 
+}
+
+
+	</style>
 </head>
 
     <body class="sub-collection-page sub-collection-style2-page">
@@ -16,30 +52,39 @@
 
             <!-- Body Container -->
             <div id="page-content"> 
-                <!--Page Header-->
-                <!--<div class="page-header text-center">-->
-                <!--    <div class="container">-->
-                <!--        <div class="row">-->
-                <!--            <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-between align-items-center">-->
-                <!--                <div class="page-title"><h1>Products</h1></div>-->
-                                <!--Breadcrumbs-->
-                <!--                <div class="breadcrumbs"><a href="<?=base_url();?>" title="Back to the home page">Home</a><span class="title"><i class="icon anm anm-angle-right-l"></i>Shop</span><span class="main-title"><i class="icon anm anm-angle-right-l"></i>Products</span></div>-->
-                                <!--End Breadcrumbs-->
-                <!--            </div>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--End Page Header-->
 
                 <!--Main Content-->
                 <div class="container">     
                     
+					<div class="row">
+					
+						<div class="col-lg-3 col-md-4">
+							<div class="filter-section">
+								<h4>Filter by Category</h4>
+								<form id="category-filter-form">
+									<?php foreach($categories as $category) { ?>
+										<div class="form-check">
+											<input class="form-check-input category-checkbox" type="checkbox" name="category[]" id="<?=$category['id'];?>" value="<?=$category['id'];?>" onchange="getCategoryProducts(<?= $category['id'] ?>)" >
+											<label class="form-check-label" for="<?=$category['id'];?>">
+												<?=$category['category_name'];?>
+											</label>
+										</div>
+									<?php } ?>
+								</form>
+							</div>
+						</div>
+					
+					
+					<div class="col-lg-9 col-md-8">
                     <!--Product Infinite-->
-                    <div class="sub-collectio-products section pb-0">
+					
+					<div id="showProduct"></div> 
+					
+                    <div class="sub-collectio-products section pb-0"  id="showProduct1">
                       
                         <!--Product Grid-->
                         <div class="grid-products grid-view-items">
-                            <div class="row col-row product-options row-cols-lg-5 row-cols-md-3 row-cols-sm-3 row-cols-2">
+                            <div class="row col-row product-options row-cols-lg-4 row-cols-md-3 row-cols-sm-3 row-cols-2 justify-content-center">
                                 
                             <?php  $n=1;  foreach($ProductD as $row){ 
 
@@ -65,9 +110,44 @@
                         
                     </div>
                     <!--End Product Infinite-->
-                    <!--End Sub Products--> 
+					
+					</div>
+					</div>
                 </div>
                 <!--End Main Content-->
             </div>
             <!-- End Body Container -->
             <?php include 'Include/footer.php';?>
+
+<script>
+
+function getCategoryProducts(cat_id) {
+    var selectedCategory= [];
+
+    $("input[name='category[]']:checked").each(function() {
+        selectedCategory.push($(this).val());
+    });
+
+    if (selectedCategory.length > 0) {
+        $.ajax({
+            url: '/getCategoryProduct',
+            method: 'POST',
+            data: {
+                cat_id: selectedCategory
+            },
+            success: function(response) {
+                 //alert(response);
+                 $("#showProduct").html(response);
+                 $("#showProduct").show();
+                 $("#showProduct1").hide();
+            }
+        });
+
+    } else {
+        $("#showProduct").hide();
+        $("#showProduct1").show();
+    }
+}
+
+
+</script>

@@ -14,8 +14,7 @@ class Home extends BaseController
         $this->session->start();
         $db = db_connect();
         //$this->LoginModel = new LoginModel($db);
-        }
-    
+    }
     
     public function index()
     {
@@ -72,7 +71,7 @@ class Home extends BaseController
     {   
         $CategoryModel   = new CategoryModel();
         $ProductModel   = new ProductModel();
-        //$data['categoryD'] = $CategoryModel->getCategoryList();
+        $data['categories'] = $CategoryModel->getCategoryList();
         $data['ProductD'] = $ProductModel->getProductListNew();
         return view('Product',$data);
     }
@@ -85,4 +84,5 @@ class Home extends BaseController
         return view('productDetails',$data);
     }
     
+	
 }

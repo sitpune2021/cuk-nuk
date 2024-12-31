@@ -96,7 +96,7 @@
                                 </div>
                                 <?php if(!empty($image)){ ?>
                                 <div class="col-sm-1 mb-3">
-                                    <a href="<?=base_url();?>public/assets/images//<?=$image;?>" target="_blank">
+                                    <a href="<?=base_url();?>public/Admin/assets/images/Product_images/<?=$image;?>" target="_blank">
                                         <img src="<?=base_url();?>public/Admin/assets/images/Product_images/<?=$image;?>" style="width: 40px;margin-top: 33px;">
                                         </a>
                                 </div>

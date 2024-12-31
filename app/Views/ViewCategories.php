@@ -48,7 +48,7 @@
                                     <div class="product-box">
                                         <div class="product-image">
                                             <?php if (!empty($row['image'])) {  ?>
-                                            <a href="<?=base_url();?>productDetails?per=<?=$row['permalink'];?>" class="product-img rounded-0"><img class="rounded-0 blur-up lazyload img-height" src="<?=base_url();?>public/Admin/assets/images/Product_images/<?=$row['image'];?>" alt="Product" title="Product" width="625" height="808" style="max-height:250px;min-height:250px;"/></a>
+                                            <a href="<?=base_url();?>productDetails?per=<?=$row['permalink'];?>" class="product-img rounded-0"><img class="rounded-0 blur-up lazyload img-height" src="<?=base_url();?>public/Admin/assets/images/Product_images/<?=$row['image'];?>" alt="Product" title="Product" width="625" height="808" /></a>
                                             <?php }  ?>
                                         </div>
                                         <div class="product-details text-center">

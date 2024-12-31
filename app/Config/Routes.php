@@ -26,7 +26,6 @@ $routes->match(['get','post'],'/ManualValve'          , 'Products::ManualValve')
 $routes->match(['get','post'],'/AutomationValve'      , 'Products::AutomationValve');
 $routes->match(['get','post'],'/PressureGuages'       , 'Products::PressureGuages');
 
-
 $routes->match(['get','post'],'/Login'                , 'AdminController::Login');
 $routes->match(['get','post'],'/signIn'               , 'AdminController::signIn');
 $routes->match(['get','post'],'/AdminDashboard'       , 'AdminController::AdminDashboard');
@@ -44,6 +43,7 @@ $routes->match(['get','post'],'/ProductInserted'      , 'ProductController::Prod
 $routes->match(['get','post'],'/UpdateProduct'        , 'ProductController::UpdateProduct');
 $routes->match(['get','post'],'/deleteProduct'        , 'ProductController::deleteProduct');
 $routes->match(['get','post'],'/ProductDetails'       , 'ProductController::ProductDetails');
+$routes->match(['get','post'],'/getCategoryProduct'   , 'ProductController::getCategoryProduct');
 
 $routes->match(['get','post'],'/ViewContactDetails'   , 'ContactController::ViewContact');
 $routes->match(['get','post'],'/ContactProcess'       , 'ContactController::ContactProcess');
